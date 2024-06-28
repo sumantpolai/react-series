@@ -4,6 +4,8 @@ import App from './App.jsx'
 import './index.css'
 import First from './First.jsx'
 import Second from './Second.jsx'
+import Third from'./Third.jsx'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
   <First/>
   <Second/>
+  <Third/>
   </>
 )
