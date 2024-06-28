@@ -5,6 +5,7 @@ import './index.css'
 import First from './First.jsx'
 import Second from './Second.jsx'
 import Third from'./Third.jsx'
+import Fourth from './Fourth.jsx'
 
 
 
@@ -16,5 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <First/>
   <Second/>
   <Third/>
+  <Fourth/>
   </>
 )
