@@ -7,6 +7,8 @@ import Second from './Second.jsx'
 import Third from'./Third.jsx'
 import Fourth from './Fourth.jsx'
 import Five from './Five.jsx'
+import Six from './Six.jsx'
+import CotextProvider from './context/Appcontext.jsx'
 
 
 
@@ -20,5 +22,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Third/>
   <Fourth/>
   <Five/>
+
+  <CotextProvider>
+  <Six/>
+  </CotextProvider>
   </>
 )
